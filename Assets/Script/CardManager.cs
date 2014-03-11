@@ -154,13 +154,13 @@ public class CardManager  {
     }
 
     // 컨디션 리턴.
-    public readonly List<Condition> getCondition() {
+    public List<Condition> getCondition() {
         return conditionList;
     
     }
 
     // 효과 리턴.
-    public readonly List<Ability> getAbility() {
+    public List<Ability> getAbility() {
         return abilityList;
 
     }
