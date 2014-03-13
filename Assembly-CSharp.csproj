@@ -48,6 +48,10 @@
   <ItemGroup>
      <Compile Include="Assets\Script\Abilities\Golem_PowerUP.cs" />
      <Compile Include="Assets\Script\Ability.cs" />
+     <Compile Include="Assets\Script\BaseCondition.cs" />
+     <Compile Include="Assets\Script\BaseConditions\BaseConditionExactStat.cs" />
+     <Compile Include="Assets\Script\BaseConditions\BaseConditionInRange.cs" />
+     <Compile Include="Assets\Script\BaseConditions\BaseConditionOutOfRange.cs" />
      <Compile Include="Assets\Script\Card.cs" />
      <Compile Include="Assets\Script\CardManager.cs" />
      <Compile Include="Assets\Script\CardPlayer.cs" />
@@ -58,12 +62,16 @@
      <Compile Include="Assets\Script\CardUnit.cs" />
      <Compile Include="Assets\Script\CardWeapon.cs" />
      <Compile Include="Assets\Script\Cards\Golem.cs" />
-     <Compile Include="Assets\Script\Condition.cs" />
+     <Compile Include="Assets\Script\Cards\NullCard.cs" />
+     <Compile Include="Assets\Script\Coordinate.cs" />
+     <Compile Include="Assets\Script\Effect.cs" />
      <Compile Include="Assets\Script\Enums.cs" />
      <Compile Include="Assets\Script\InitGame.cs" />
      <Compile Include="Assets\Script\MasterGame.cs" />
-     <Compile Include="Assets\TestStatic.cs" />
-     <Compile Include="Assets\tempScript.cs" />
+     <Compile Include="Assets\Script\Modifier.cs" />
+     <Compile Include="Assets\Script\Scope.cs" />
+     <Compile Include="Assets\testCard.cs" />
+     <Compile Include="Assets\testMain.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

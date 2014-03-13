@@ -23,21 +23,7 @@ public abstract class Card  {
         ;
     }
 
-    
-
-
-    // Supporter Card
-    
-    
-
-
-    
-    
-    
-
-
-
-
+ 
 
 
 }

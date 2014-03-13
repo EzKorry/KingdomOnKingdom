@@ -40,10 +40,38 @@ public static class RangeTypes {
     public const int _11x11 = 10;
 }
 
-public static class Modifier {
+public static class ValueModifier {
 
     public const int Set = 0;
     public const int Add = 1;
     public const int Subtract = 2;
+
+}
+
+public static class Operator {
+    public const int Equal = 0;
+    public const int SmallerThan = 1;
+    public const int BiggerThan = 2;
+    public const int EqualOrSmallerThan = 3;
+    public const int EqualOrBiggerThan = 4;
+
+}
+public static class AttackTypes {
+    public const int Physical = 0;
+    public const int Magical = 1;
+    public const int Absolute = 2;
+
+}
+
+
+public static class ConditionTiming {
+    public const int PeriodBegin = 0;
+    public const int Attack = 1;
+    public const int Effect = 2;
+    public const int Die = 3;
+    public const int EffectUse = 4;
+    public const int Summon = 5;
+    public const int Revive = 6;
+    public const int Move = 7;
 
 }
